@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lithdew/flatend"
+	"github.com/omani/flatend"
 	"os"
 	"os/signal"
 	"strconv"

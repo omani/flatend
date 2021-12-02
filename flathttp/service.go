@@ -2,7 +2,7 @@ package flathttp
 
 import (
 	"github.com/julienschmidt/httprouter"
-	"github.com/lithdew/flatend"
+	"github.com/omani/flatend"
 	"io"
 	"net/http"
 	"strings"

@@ -3,8 +3,8 @@ package main
 import (
 	"database/sql"
 	"encoding/json"
-	"github.com/lithdew/flatend"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/omani/flatend"
 	"os"
 	"os/signal"
 )

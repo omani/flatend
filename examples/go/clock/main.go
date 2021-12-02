@@ -4,7 +4,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/lithdew/flatend"
+	"github.com/omani/flatend"
 	"io"
 	"io/ioutil"
 	"math/rand"

@@ -1,4 +1,4 @@
-module github.com/lithdew/flatend
+module github.com/omani/flatend
 
 go 1.14
 

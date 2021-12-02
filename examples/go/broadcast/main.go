@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/lithdew/flatend"
+	"github.com/omani/flatend"
 	"io/ioutil"
 	"os"
 )

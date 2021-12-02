@@ -3,10 +3,11 @@ package flatend
 import (
 	"errors"
 	"fmt"
-	"github.com/lithdew/kademlia"
-	"github.com/lithdew/monte"
 	"io"
 	"sync"
+
+	"github.com/lithdew/kademlia"
+	"github.com/lithdew/monte"
 )
 
 type Stream struct {
@@ -89,6 +90,10 @@ func (p *Provider) CloseStreamWithError(stream *Stream, err error) {
 	stream.once.Do(stream.wg.Done)
 
 	delete(p.streams, stream.ID)
+}
+
+func (p *Provider) PublicKey() kademlia.PublicKey {
+	return p.id.Pub
 }
 
 func (p *Provider) Close() {
